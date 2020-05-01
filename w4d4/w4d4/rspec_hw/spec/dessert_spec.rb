@@ -7,7 +7,7 @@ Instructions: implement all of the pending specs (the `it` statements without bl
 
 describe Dessert do
   subject(:dessert) {Dessert.new("brownie", 10, :chef)}
-  let(:chef) { double("chef") }
+  let(:chef) { double("chef") } #double / mock 
 
   describe "#initialize" do
     it "sets a type" do
